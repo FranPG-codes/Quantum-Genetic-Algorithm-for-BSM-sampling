@@ -1,0 +1,29 @@
+// Detailed Flowchart for the TFM Genetic Algorithm
+digraph SpecificGeneticAlgorithmSteps {
+	node [color=lightblue fontname=Helvetica shape=box style="filled,rounded"]
+	edge [fontname=Helvetica]
+	start [label=START color="#3498db" fontcolor=white shape=ellipse]
+	define [label="DEFINE ENCODING & PARAMETERS"]
+	initialization [label=INITIALIZATION]
+	evaluate [label="EVALUATE FITNESS
+
+"]
+	dec_termination [label="TERMINATION DECISION" color="#f1c40f" shape=diamond]
+	end [label=END color="#2c3e50" fontcolor=white shape=ellipse]
+	elitism [label="APPLY ELITISM"]
+	selection [label=SELECTION]
+	crossover [label=CROSSOVER]
+	mutation [label=MUTATION]
+	reproduction [label=REPRODUCTION]
+	start -> define
+	define -> initialization
+	initialization -> evaluate
+	evaluate -> dec_termination
+	dec_termination -> end [label=YES]
+	dec_termination -> elitism [label=NO]
+	elitism -> selection
+	selection -> crossover
+	crossover -> mutation
+	mutation -> reproduction
+	reproduction -> evaluate [label="NEW POPULATION"]
+}
