@@ -1,0 +1,51 @@
+---
+additional_resources:
+- {description: Rivet analysis, location: 'http://rivet.hepforge.org/analyses#SLD_2002_S4869273'}
+comment: |
+  SLAC-SLC. Measurement of the b-quark fragmentation function in Z0 decays from E+ E- interactions. The datacome from the 1997 and 1998 running of the SLC from 350000 hadronic Z0 events.
+
+  UPDATE (05 MAY 2016): Replaced Table 1 with corrected numbers given in Erratum (and moved original Table 1 to current Table 2).
+dateupdated: 05/05/2016 15:43:47
+modifications:
+- {action: Edited, date: 06 May 2016, who: Mike Whalley}
+- {action: Encoded, date: 19 Jan 2006, who: Mike Whalley}
+record_ids:
+- {id: 582951, type: inspire}
+- {id: 5218, type: red}
+
+---
+data_file: Table1.yaml
+description: "DATA FROM THE ERRATUM (PR D66,079905,2002). \nMeasurement of the fragmentation\
+  \ function of weakly decaying B-hadrons in Z0 decays.\nFirst systematic (DSYS) error\
+  \ is the systematic error, the second is the estimated error due to the model dependence\
+  \ of the unfolding procedure.\n"
+keywords:
+- name: reactions
+  values: [E+ E- --> B(5270) X, E+ E- --> BBAR X, E+ E- --> Z0]
+- name: observables
+  values: [DN/DX]
+- name: phrases
+  values: [Exclusive, Inclusive, Single Differential Distribution, E+ E- Scattering]
+- name: cmenergies
+  values: [91.28]
+location: Data from T 6 (Erratum)
+name: Table 1
+
+---
+data_file: Table2.yaml
+description: |
+  DATA FROM ORIGINAL PAPER, SUPERSEDED BY ERRATUM (SEE ABOVE TABLE).
+  Measurement of the fragmentation function of weakly decaying B-hadrons in Z0 decays.
+  First systematic (DSYS) error is the systematic error, the second is the estimated error due to the model dependence of the unfolding procedure.
+keywords:
+- name: reactions
+  values: [E+ E- --> B(5270) X, E+ E- --> BBAR X, E+ E- --> Z0]
+- name: observables
+  values: [DN/DX]
+- name: phrases
+  values: [Exclusive, Inclusive, Single Differential Distribution, E+ E- Scattering]
+- name: cmenergies
+  values: [91.28]
+location: Data from T 6,F 11
+name: Table 2
+
