@@ -1,6 +1,6 @@
-# Entangled Genetic Quantum Alrgotithm (EQGA) for JSSP
+# Hybrid Quantum Genetic Algorithm (HQGA) for quark-b Fragmentation Function parameterization
 
-A Hybrid Quantum-Classical Optimization Engine for solving NP-Hard Job Shop Scheduling  Problems.
+Here we present an HQGA wich adjust the parameters from the Peterson and Modified-Peterson models for the FFs of heavy quarks towars experimental data from quark-b fragmentations
 
 ## The Job Shop Scheduling Problem (JSSP) is a classical NP-Hard optimization challenge. This Project implements a *Quantum Genetic Algorithm (QGA)* to find  near optimal schedules.
 
