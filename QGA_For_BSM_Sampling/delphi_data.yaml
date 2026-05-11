@@ -1,0 +1,55 @@
+dependent_variables:
+- header: {name: (1/N) * dN/dx_B}
+  qualifiers:
+  - {name: RE, value: E+ E- --> Z0 --> b bbar}
+  - {name: SQRT(S), units: GeV, value: '91.2'}
+  values:
+  - value: 0.194
+    errors:
+    - {label: stat, symerror: 0.020}
+    - {label: sys, symerror: 0.004}
+  - value: 0.474
+    errors:
+    - {label: stat, symerror: 0.031}
+    - {label: sys, symerror: 0.008}
+  - value: 0.734
+    errors:
+    - {label: stat, symerror: 0.009}
+    - {label: sys, symerror: 0.037}
+  - value: 1.112
+    errors:
+    - {label: stat, symerror: 0.048}
+    - {label: sys, symerror: 0.013}
+  - value: 1.753
+    errors:
+    - {label: stat, symerror: 0.021}
+    - {label: sys, symerror: 0.057}
+  - value: 2.641
+    errors:
+    - {label: stat, symerror: 0.029}
+    - {label: sys, symerror: 0.064}
+  - value: 3.013
+    errors:
+    - {label: stat, symerror: 0.119}
+    - {label: sys, symerror: 0.029}
+  - value: 1.787
+    errors:
+    - {label: stat, symerror: 0.028}
+    - {label: sys, symerror: 0.119}
+  - value: 0.227
+    errors:
+    - {label: stat, symerror: 0.046}
+    - {label: sys, symerror: 0.015}
+
+independent_variables:
+- header: {name: X_B}
+  values:
+  - {high: 0.30, low: 0.10}
+  - {high: 0.42, low: 0.30}
+  - {high: 0.54, low: 0.42}
+  - {high: 0.64, low: 0.54}
+  - {high: 0.73, low: 0.64}
+  - {high: 0.80, low: 0.73}
+  - {high: 0.88, low: 0.80}
+  - {high: 0.94, low: 0.88}
+  - {high: 1.00, low: 0.94}
